@@ -1,0 +1,35 @@
+# FlyBird - Juego tipo Flappy Bird inspirado en Hollow Knight
+
+Este proyecto es para un trabajo parcial de mi carrera, se uso una versión personalizada del clásico Flappy Bird, desarrollada en Python usando la librería Pygame. El personaje principal es el "caballerito" y el arte, conceptos están inspirados en el juego Hollow Knight. Todos los derechos de personajes y arte pertenecen a los creadores originales de Hollow Knight (Team Cherry).
+
+## ¿Cómo jugar?
+- Pulsa la barra espaciadora para hacer saltar al caballerito.
+- Esquiva las tuberías y trata de conseguir la mayor cantidad de puntos.
+- El juego termina si tocas una tubería o el suelo/techo.
+
+## Requisitos para probarlo
+1. **Python 3.12.3**
+2. **Pygame**
+   - Instala Pygame ejecutando en la terminal:
+     ```
+     pip install pygame (Luego te pedira que lo actualices)
+     ```
+3. **Archivos del proyecto**
+   - Asegúrate de tener todos los archivos y carpetas del repositorio, especialmente la carpeta `assets` (con imágenes y sonidos), la carpeta `sound` y el archivo `index.py`.
+
+## Cómo ejecutar el juego
+1. Crea y activa un entorno virtual (carpeta `venv`):
+   ```
+   python -m venv venv
+   .\venv\Scripts\activate
+   ```
+2. Abre una terminal en la carpeta del proyecto (donde está `index.py`).
+3. Ejecuta:
+   ```
+   python index.py
+   ```
+4. ¡Disfruta y trata de superar tu propio récord!
+
+---
+
+Hecho por por Santilook. Inspirado en Hollow Knight. Todo derecho de arte y personajes pertenece a sus creadores originales (Team Cherry).
